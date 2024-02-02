@@ -19,6 +19,7 @@
         display: block;
         width: 45px;
         height:20px;
+        margin: 3%;
     }
 }
 .nav-top{
@@ -106,7 +107,7 @@
     color: #D5D6D7;
     margin-top: -2%;
 }
-.nav-btn{
+.nav-buttons{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;

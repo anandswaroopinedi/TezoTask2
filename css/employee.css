@@ -98,6 +98,15 @@
     font-family: 'Poppins';
     margin-right: 2%;
 }
+@media all and (max-width: 1000px) {
+    .body-sec{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        font-family: 'Poppins';
+        margin: 0% 6% 0% 6%;
+    }
+}
 .right-bodysec-header{
     display: flex;
     flex-direction: row;
@@ -112,7 +121,7 @@
 .page-heading-desc{
     color: #83909a;
 }
-.accessing-btn{
+.accessing-buttons{
     justify-content: space-between;
 }
 
@@ -151,7 +160,7 @@ span {
     margin-bottom: 10px;
     justify-content: space-between;
 }
-.c-btn{
+.c-vector-element{
     background-color: #F44848;
     cursor: pointer;
     color: white;
@@ -160,11 +169,11 @@ span {
     border-radius: 6px;
 }
 
-.vector-btn{
+.vector-area{
     padding-top: 0.7%;
 }
 
-.btn-alpha{
+.vector-element{
     padding: 10px 11px;
     border-style: none;
     border-radius: 6px;
@@ -183,7 +192,11 @@ span {
     align-items: center;
     margin-bottom: 1%;
 }
-
+.filter-name{
+    font-size: 1vw;
+    color: rgb(254, 99, 99);
+    font-family: poppins;
+}
 .filter-status-div{
     margin-left: 3%;
 }
@@ -267,7 +280,7 @@ span {
     border-radius: 7px;
 }
 
-.delete-btn{
+.delete{
     background-color: #F89191;
     color: white;
     border-style: none;

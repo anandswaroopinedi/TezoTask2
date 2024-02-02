@@ -107,6 +107,15 @@
     font-family: 'Poppins';
     margin-right: 1%;
 }
+@media all and (max-width: 1000px) {
+    .body-sec{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        font-family: 'Poppins';
+        margin: 0% 6% 0% 6%;
+    }
+}
 .right-bodysec-header{
     display: flex;
     flex-direction: row;
@@ -138,7 +147,7 @@
     margin-top: -5.1%;
     font-size: 1vw;
 }
-.accessing-btn{
+.accessing-buttons{
     justify-content: space-between;
 }
 span {

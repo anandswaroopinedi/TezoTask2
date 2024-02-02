@@ -93,6 +93,17 @@
     width: 100%;
     padding-right: 1%;
 }
+@media all and (max-width: 1000px) {
+    .body-sec{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        font-family: 'Poppins';
+        width: 100%;
+        padding-right: 8%;
+        margin: 0% 6% 0% 6%;
+    }
+}
 .right-bodysec-header{
     display: flex;
     flex-direction: row;
@@ -110,7 +121,7 @@
     color: #83909a;
     margin-top: -4%;
 }
-.accessing-btn{
+.accessing-buttons{
     justify-content: space-between;
 }
 span {
