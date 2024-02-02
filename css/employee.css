@@ -49,6 +49,14 @@
     border-radius: 5%;
     margin: 254% 5% 0% 0%;
 }
+@media only screen and (min-width: 1700px) {
+    .new-versions{
+        background-color: #FEF6F6;
+        padding: 4%;
+        border-radius: 5%;
+        margin: 210% 5% 0% 0%;
+    }
+}
 .nav-item-emp{
     display: flex;
     flex-direction: row;
@@ -215,11 +223,18 @@ span {
     flex-direction: row;
     margin-left: 55%;
 }
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 1430px) {
     .filter-reset-apply{
         display: flex;
         flex-direction: row;
         margin-left: 45%;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .filter-reset-apply{
+        display: flex;
+        flex-direction: row;
+        margin-left: 35%;
     }
 }
 .reset{
