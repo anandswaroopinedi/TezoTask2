@@ -205,6 +205,7 @@ span {
     padding: 12%;
     border: 1px solid #FBC0C0;
     border-radius: 6px;
+    color: #7A859B;
 }
 
 .filter-location-div{
@@ -214,6 +215,7 @@ span {
     padding: 11%;
     border: 1px solid #FBC0C0;
     border-radius: 6px;
+    color: #7A859B;
 }
 
 .filter-department-div{
@@ -224,6 +226,7 @@ span {
     padding: 10%;
     border: 1px solid #FBC0C0;
     border-radius: 6px;
+    color: #7A859B;
 }
 
 .filter-div{
