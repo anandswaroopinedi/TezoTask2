@@ -5,7 +5,7 @@
 .left-bodysec{
     width: 17%;
 }
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 1100px) {
     .left-bodysec{
         display: none;
     }
@@ -14,7 +14,7 @@
 .hamburger{
     display: none;
 }
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 1100px) {
     .hamburger{
         display: block;
         width: 45px;
